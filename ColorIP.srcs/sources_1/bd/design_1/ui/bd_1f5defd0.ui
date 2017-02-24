@@ -1,0 +1,44 @@
+{
+   guistr: "# # String gsaved with Nlview 6.5.12  2016-01-29 bk=1.3547 VDI=39 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port READY_YELLOW -pg 1 -y 700 -defaultsOSRD
+preplace port EN -pg 1 -y 220 -defaultsOSRD
+preplace port READY_RED -pg 1 -y 220 -defaultsOSRD
+preplace port CLK -pg 1 -y 200 -defaultsOSRD
+preplace port RESET -pg 1 -y 180 -defaultsOSRD
+preplace port READY_BLUE -pg 1 -y 540 -defaultsOSRD
+preplace port READY_GREEN -pg 1 -y 380 -defaultsOSRD
+preplace portBus COORD_YELLOW -pg 1 -y 680 -defaultsOSRD
+preplace portBus COLOR_RED -pg 1 -y 240 -defaultsOSRD
+preplace portBus COORD_GREEN -pg 1 -y 360 -defaultsOSRD
+preplace portBus COORD_BLUE -pg 1 -y 520 -defaultsOSRD
+preplace portBus COORD_RED -pg 1 -y 200 -defaultsOSRD
+preplace portBus COLOR_YELLOW -pg 1 -y 720 -defaultsOSRD
+preplace portBus COLOR_GREEN -pg 1 -y 400 -defaultsOSRD
+preplace portBus COLOR_BLUE -pg 1 -y 560 -defaultsOSRD
+preplace inst ColorDetect_Blue -pg 1 -lvl 1 -y 540 -defaultsOSRD
+preplace inst ColorDetect_Green -pg 1 -lvl 1 -y 380 -defaultsOSRD
+preplace inst ColorDetect_Yellow -pg 1 -lvl 1 -y 700 -defaultsOSRD
+preplace inst ColorDetect_Red -pg 1 -lvl 1 -y 220 -defaultsOSRD
+preplace inst ROM -pg 1 -lvl 1 -y 20 -defaultsOSRD
+preplace netloc CLK_1 1 0 1 NJ
+preplace netloc ColorDetect_Red_READY 1 1 1 NJ
+preplace netloc ColorDetect_Red_COORDINATE 1 1 1 NJ
+preplace netloc COLOR_2_1 1 0 1 NJ
+preplace netloc ColorDetect_Red_ADDR 1 0 2 80 -70 550
+preplace netloc COLOR_1 1 0 1 NJ
+preplace netloc ColorDetect_Yellow_COORDINATE 1 1 1 NJ
+preplace netloc ColorDetect_Yellow_READY 1 1 1 NJ
+preplace netloc COLOR_3_1 1 0 1 NJ
+preplace netloc EN_1 1 0 1 NJ
+preplace netloc RESET_1 1 0 1 NJ
+preplace netloc ColorDetect_Green_READY 1 1 1 NJ
+preplace netloc COLOR_1_1 1 0 1 NJ
+preplace netloc ColorDetect_Blue_COORDINATE 1 1 1 NJ
+preplace netloc ROM_douta 1 0 1 80
+preplace netloc ColorDetect_Blue_READY 1 1 1 NJ
+preplace netloc ColorDetect_Green_COORDINATE 1 1 1 NJ
+levelinfo -pg 1 0 400 590 -top -80 -bot 790
+",
+}
+0
